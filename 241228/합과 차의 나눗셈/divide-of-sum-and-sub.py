@@ -3,5 +3,6 @@ def Cal():
     num=num.split()
     a=int(num[0])
     b=int(num[1])
-    print(round((a+b)/(a-b),2))
+    print(f"{(a+b)/(a-b):.2f}")
+
 Cal()
