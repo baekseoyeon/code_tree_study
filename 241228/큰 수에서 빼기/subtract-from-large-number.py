@@ -7,4 +7,6 @@ def Cal():
         print(a-b)
     elif a<b:
         print(b-a)
+    else:
+        print('0')
 Cal()
