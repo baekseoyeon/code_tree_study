@@ -1,3 +1,7 @@
-a,b=float(input())
+c=input()
+a=float(input())
+b=float(input())
+a=f"{a:.2f}"
+b=f"{b:.2f}"
 
-print(a,b)
+print(c,a,b,sep='\n')
