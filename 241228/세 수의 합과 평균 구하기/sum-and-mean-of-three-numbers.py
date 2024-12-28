@@ -5,5 +5,5 @@ def Cal():
     b=int(num[1])
     c=int(num[2])
     print(a+b+c)
-    print(round((a+b+c)/len(num)))
+    print((a+b+c)//len(num))
 Cal()
