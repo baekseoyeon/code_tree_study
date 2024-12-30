@@ -1,13 +1,15 @@
 def Score():
     n=int(input())
 
-    if score >= 90:
+    if n >= 90:
         print('A')
-    elif score >= 80:
+    elif n >= 80:
         print('B')
-    elif score >= 70:
+    elif n >= 70:
         print('C')
-    elif score >= 60:
+    elif n >= 60:
         print('D')
     else:
         print('F')
+
+Score()
