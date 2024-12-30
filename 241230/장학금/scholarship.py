@@ -6,3 +6,5 @@ elif 95<=final:
     print("100000")
 elif 90<=final:
     print("50000")
+else:
+    print("0")
