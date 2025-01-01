@@ -8,7 +8,7 @@
 n=int(input())
 i=1
 while i<n+1:
-    if str(i) in ['3','6','9']:
+    if any(c in str(i) for c in ['3','6','9']) or (i%3==0):
         print('0',end=' ')
     else:
         print(i,end=' ')
