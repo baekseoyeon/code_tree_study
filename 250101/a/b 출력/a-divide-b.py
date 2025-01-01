@@ -2,9 +2,9 @@ a,b=map(int,input().split())
 
 print(f"{a//b}.",end='')
 
-num=((a%b)*10)//b #몫
-num1=((a%b)*10)%b #나머지
+
+a%=b
 for i in range(20):
-    print(num,end='')
-    num1*=10
-    num=num1//b
+    a*=10
+    print(a//b,end='')
+    a%=b
