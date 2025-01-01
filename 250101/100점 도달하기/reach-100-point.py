@@ -10,5 +10,5 @@ for i in range(n,101,1):
     elif i>59:
         print('D',end=' ')
     else:
-        print('E',end=' ')
+        print('F',end=' ')
     i+=i
